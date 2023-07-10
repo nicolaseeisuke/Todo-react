@@ -100,7 +100,7 @@ function App() {
             </div>
             <div className='form-control'>
                <label htmlFor= "time">Duração: </label> <br/>
-               <input type='text' name="time" placeholder='tempo esromado (em horas)' 
+               <input type='text' name="time" placeholder='tempo estimado (em horas)' 
                onChange={(e) => setTime(e.target.value)} value={time} required/>
             </div>
                <input type='submit' value="Criar tarefa"/>
